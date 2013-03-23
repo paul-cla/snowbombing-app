@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	id = "com.snowbombing.app.custom.clarkin"
+	version = "1.0.0">
+
+	<name>Snow Bombing</name>
+
+	<description>
+	Snowbombing 2012 Timetables
+	</description>
+
+	<author email="paul.clarkin@yahoo.com">
+	Paul Clarkin
+	</author>
+
+	<icon src="icon.png" gap:role="default" />
+	<icon src="icons/icon-android-36.png" width="36" height="36"/>
+	<icon src="icons/icon-android-48.png" width="48" height="48"/>
+	<icon src="icons/icon-android-72.png" width="72" height="72"/>
+
+	<preference name="orientation" value="portrait" />
+	<preference name="android-installLocation" value="preferExternal" />
+</widget>

@@ -1,0 +1,275 @@
+/*
+Theme Name: Snowbombing
+Theme URI: http://snowbombing.mobi/
+Author: Ruben Arakelyan
+Author URI: http://twentyfournine.co.uk/
+Description: The Snowbombing theme is a custom theme for the Snowbombing Guide. This theme relies on the Snowbombing Guide Extensions plugin.
+Version: 1.0
+*/
+
+.ui-page {
+	background: url(../images/24.jpg) center top no-repeat fixed;
+	background-size: cover;
+}
+
+.bg1 .ui-page {
+	background-image: url(../images/1.jpg);
+}
+.bg2 .ui-page {
+	background-image: url(../images/2.jpg);
+}
+.bg3 .ui-page {
+	background-image: url(../images/3.jpg);
+}
+.bg4 .ui-page {
+	background-image: url(../images/4.jpg);
+}
+.bg5 .ui-page {
+	background-image: url(../images/5.jpg);
+}
+.bg6 .ui-page {
+	background-image: url(../images/6.jpg);
+}
+.bg7 .ui-page {
+	background-image: url(../images/7.jpg);
+}
+.bg8 .ui-page {
+	background-image: url(../images/8.jpg);
+}
+.bg9 .ui-page {
+	background-image: url(../images/9.jpg);
+}
+.bg10 .ui-page {
+	background-image: url(../images/10.jpg);
+}
+.bg11 .ui-page {
+	background-image: url(../images/11.jpg);
+}
+.bg12 .ui-page {
+	background-image: url(../images/12.jpg);
+}
+.bg13 .ui-page {
+	background-image: url(../images/13.jpg);
+}
+.bg14 .ui-page {
+	background-image: url(../images/14.jpg);
+}
+.bg15 .ui-page {
+	background-image: url(../images/15.jpg);
+}
+.bg16 .ui-page {
+	background-image: url(../images/16.jpg);
+}
+.bg17 .ui-page {
+	background-image: url(../images/17.jpg);
+}
+.bg18 .ui-page {
+	background-image: url(../images/18.jpg);
+}
+.bg19 .ui-page {
+	background-image: url(../images/19.jpg);
+}
+.bg20 .ui-page {
+	background-image: url(../images/20.jpg);
+}
+.bg21 .ui-page {
+	background-image: url(../images/21.jpg);
+}
+.bg22 .ui-page {
+	background-image: url(../images/22.jpg);
+}
+.bg23 .ui-page {
+	background-image: url(../images/23.jpg);
+}
+.bg24 .ui-page {
+	background-image: url(../images/24.jpg);
+}
+
+.ui-page[data-fullscreen=true] .ui-content {
+	padding: 0;
+}
+
+.ui-content {
+	background: rgba(34,34,34,0.6);
+}
+
+.ui-content .ui-link {
+	color: #fff !important;
+}
+
+.ui-content .ui-controlgroup {
+	padding: 0.1em 0 0 0;
+}
+
+.ui-content .ui-btn-up-a {
+	border: 1px solid #101324;
+	background: #003061;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#015697), to(#003061));
+	background-image: -webkit-linear-gradient(#015697, #003061);
+	background-image: -moz-linear-gradient(#015697, #003061);
+	background-image: -ms-linear-gradient(#015697, #003061);
+	background-image: -o-linear-gradient(#015697, #003061);
+	background-image: linear-gradient(#015697, #003061);
+	opacity: 0.7;
+}
+
+.ui-content .ui-btn-hover-a {
+	border: 1px solid #101324;
+	background: #015697;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#03a0d3), to(#015697));
+	background-image: -webkit-linear-gradient(#03a0d3, #015697);
+	background-image: -moz-linear-gradient(#03a0d3, #015697);
+	background-image: -ms-linear-gradient(#03a0d3, #015697);
+	background-image: -o-linear-gradient(#03a0d3, #015697);
+	background-image: linear-gradient(#03a0d3, #015697);
+	opacity: 0.7;
+}
+
+.ui-content .ui-btn-down-a {
+	border: 1px solid #101324;
+	background: #015697;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#003061), to(#015697));
+	background-image: -webkit-linear-gradient(#003061, #015697);
+	background-image: -moz-linear-gradient(#003061, #015697);
+	background-image: -ms-linear-gradient(#003061, #015697);
+	background-image: -o-linear-gradient(#003061, #015697);
+	background-image: linear-gradient(#003061, #015697);
+	opacity: 0.7;
+}
+
+/* Header */
+.ui-header .ui-btn-corner-all {
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.ui-header .ui-title {
+	margin: 4px 90px;
+}
+
+/* Content slider */
+.contentslider {
+	display: none;
+	height: 70px;
+	margin-bottom: 15px;
+	overflow: hidden;
+	position: relative;
+	text-align: left;
+	text-shadow: none;
+	width: 310px;
+}
+
+.contentslider .contentslider-panel {
+	height: 70px;
+	overflow: hidden;
+	padding: 4px 8px;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+
+.contentslider .contentslider-panel-active {
+	z-index: 5;
+}
+
+.contentslider .contentslider-panel-old {
+	z-index: 4;
+}
+
+.contentslider .contentslider-panels {
+	height: 70px;
+	overflow: hidden;
+	width: 100%;
+}
+
+.contentslider .wp-post-image + .text {
+	left: 70px;
+	position: absolute;
+}
+
+.contentslider a {
+	text-decoration: none !important;
+}
+
+/* YouTube videos */
+.youtube {
+	border: none;
+}
+
+/* Mayrhofen Map */
+#mayrhofenmap {
+	color: #000;
+	height: 100%;
+	text-shadow: none;
+	width: 100%;
+}
+
+/* Facebook */
+#fb_login, #fb_logout {
+	display: none;
+}
+
+.fb_connected #fb_login, .fb_not_connected #fb_logout {
+	display: none;
+}
+
+.fb_connected #fb_logout, .fb_not_connected #fb_login {
+	display: block;
+}
+
+/* Twitter */
+#twitter {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#twitter li {
+	background: #fff;
+	border: 1px solid #bbb;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: 2px 2px 2px #bbb;
+	-moz-box-shadow: 2px 2px 2px #bbb;
+	box-shadow: 2px 2px 2px #bbb;
+	clear: both;
+	color: #000;
+	margin-bottom: 10px;
+	padding: 10px 20px;
+	text-shadow: none;
+}
+
+#twitter .ui-link {
+	color: #000 !important;
+}
+
+#twitter .avatar {
+	float: left;
+}
+
+#twitter h3, #twitter p {
+	margin: 0 0 10px 0;
+}
+
+#twitter .realname, #twitter .metadata {
+	font-size: 80%;
+	font-weight: normal;
+}
+
+#twitter .tweetcontent {
+	margin-left: 70px;
+}
+
+#twitter .metadata img {
+	vertical-align: -3px;
+}
+
+#tweetbox {
+	height: 140px;
+}
+
+.center{
+	text-align: center;
+}
