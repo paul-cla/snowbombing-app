@@ -643,6 +643,32 @@ a.ui-link-inherit {
 	outline-width: 1px;
 	outline-style: auto;
 }
+.bg-backcountry .ui-page {
+	background-image: url(../images/backcountry.jpg);
+}
+
+.bg-arctic .ui-page {
+	background-image: url(../images/arctic.jpg);
+}
+
+.bg-bruck .ui-page {
+	background-image: url(../images/bruck.jpg);
+}
+.bg-mountain .ui-page {
+	background-image: url(../images/mountain.jpg);
+}
+.bg-rompas .ui-page {
+	background-image: url(../images/rompas.jpg);
+}
+.bg-schussel .ui-page {
+	background-image: url(../images/schussel.jpg);
+}
+.bg-sports .ui-page {
+	background-image: url(../images/sports.jpg);
+}
+.bg-forest .ui-page {
+	background-image: url(../images/forest.jpg);
+}
 
 .bg1 .ui-page {
 	background-image: url(../images/1.jpg);
