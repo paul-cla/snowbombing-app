@@ -19,6 +19,7 @@
 	<icon src="icons/icon-android-48.png" width="48" height="48"/>
 	<icon src="icons/icon-android-72.png" width="72" height="72"/>
 
-	<preference name="orientation" value="portrait" />
+	<preference name="orientation" value="default" />
 	<preference name="android-installLocation" value="preferExternal" />
+	<preference name="permissions" value="none"/>
 </widget>
